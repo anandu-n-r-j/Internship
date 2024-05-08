@@ -29,7 +29,7 @@ TOKEN_FILE='token_NME.pickle'
 
 CHANNEL_ID='UC7zbbglcdBEvi9C3W_K7DCQ'
 API_KEY='AIzaSyB2i91QS779UFyywLOoQtae1UCmFJ36by4'
-days_to_backfill=30
+days_to_backfill=10
 # os.environ['OAUTHLIB_INSECURE_TRANSPORT'] = '1'
 
 

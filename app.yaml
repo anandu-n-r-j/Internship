@@ -1,0 +1,3 @@
+runtime: python39
+service: version-demogpt
+entrypoint: gunicorn -k uvicorn.workers.UvicornWorker api:app

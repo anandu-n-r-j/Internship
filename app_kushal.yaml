@@ -1,0 +1,3 @@
+runtime: python39
+service: kushal-demo
+entrypoint: gunicorn -k uvicorn.workers.UvicornWorker kushal:app_k

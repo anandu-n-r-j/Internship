@@ -1,0 +1,85 @@
+info:
+  title: FastAPI
+  version: 0.1.0
+openapi: 3.1.0
+paths:
+  /campaign_budget_reallocation_based_on_performance:
+    post:
+      operationId: campaign_budget_reallocation_based_on_performance_campaign_budget_reallocation_based_on_performance_post
+      responses:
+        '200':
+          content:
+            application/json:
+              schema: {}
+          description: Successful Response
+      summary: Campaign Budget Reallocation Based On Performance
+  /campaign_evaluation_based_on_budget:
+    post:
+      operationId: campaign_evaluation_based_on_budget_campaign_evaluation_based_on_budget_post
+      responses:
+        '200':
+          content:
+            application/json:
+              schema: {}
+          description: Successful Response
+      summary: Campaign Evaluation Based On Budget
+  /get_campaigns_based_on_roas:
+    post:
+      operationId: get_campaigns_based_on_roas_get_campaigns_based_on_roas_post
+      responses:
+        '200':
+          content:
+            application/json:
+              schema: {}
+          description: Successful Response
+      summary: Get Campaigns Based On Roas
+  /identify_negative_keywords:
+    post:
+      operationId: identify_negative_keywords_identify_negative_keywords_post
+      responses:
+        '200':
+          content:
+            application/json:
+              schema: {}
+          description: Successful Response
+      summary: Identify Negative Keywords
+  /increase_bidrate_keywords:
+    post:
+      operationId: increase_bidrate_keywords_increase_bidrate_keywords_post
+      responses:
+        '200':
+          content:
+            application/json:
+              schema: {}
+          description: Successful Response
+      summary: Increase Bidrate Keywords
+  /keywords_and_metrics:
+    post:
+      operationId: keywords_and_metrics_for_experiment_keywords_and_metrics_post
+      responses:
+        '200':
+          content:
+            application/json:
+              schema: {}
+          description: Successful Response
+      summary: Keywords And Metrics For Experiment
+  /optimize_campaigns_on_roas:
+    post:
+      operationId: optimize_campaigns_on_roas_optimize_campaigns_on_roas_post
+      responses:
+        '200':
+          content:
+            application/json:
+              schema: {}
+          description: Successful Response
+      summary: Optimize Campaigns On Roas
+  /sampling_of_campaings_based_on_performance:
+    post:
+      operationId: sampling_of_campaings_based_on_performance_sampling_of_campaings_based_on_performance_post
+      responses:
+        '200':
+          content:
+            application/json:
+              schema: {}
+          description: Successful Response
+      summary: Sampling Of Campaings Based On Performance
